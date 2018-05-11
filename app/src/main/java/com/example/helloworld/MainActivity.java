@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.e("tag", "张俊杰是个大帅比");
+        Log.e("tag", "侯坤是个丑13");
         setContentView(R.layout.activity_main);
         ArrayList<StringBean> list = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
